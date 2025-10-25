@@ -1,8 +1,40 @@
+# Bytecode
 __pycache__/
 *.pyc
+*.pyo
+
+# Data and outputs
 data/
-checkpoints/
 outputs/
-.vscode/
+eval_results/
+eval_results_labelled/
+eval_depth_results/
+depth_viz/
+viz_out/
+preds/
+
+# Models & experiments
+checkpoints/
+experiments/
 *.pth
 *.pt
+*.ckpt
+*.npz
+*.npy
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Python env / packaging
+.env
+.envrc
+.venv
+venv/
+
+# logs
+*.log
+
+# backup files
+*.bak
